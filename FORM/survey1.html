@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Survey Form</title>
+
+    <link rel="stylesheet" href="survey.css"></head>
+
+<body>
+     
+      <b><H1 id="title">Survey Form</H1></b>
+
+      <div id="form-outer">
+          <p id="Description">
+              let us know how we can improve kikuu online shopping app
+          </p>
+          <form id="survey-form" action="#" method="POST">
+                <div class="rowTab">
+                        <div class="labels">
+                          <label id="name-label" for="name"> Name: </label> <input autofocus="" type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required="">
+
+                      </div>
+                </div>
+                <div class="rowTab">
+                        <div class="labels">
+                          <label id="email-label" for="email"> Email: </label> <input type="email" name="email" id="email" class="input-field" required="" placeholder="Enter your Email">
+                        </div>
+                       
+                      </div>
+                      
+
+                      <div class="rowTab">
+                        <div class="labels">
+                          <label id="number-label" for="number"> Age: </label> <input type="number"  name="number" min="1" max="120"  id="number" class="input-field" required="" placeholder="Enter your Age">
+                        </div>
+                        
+                      </div>    
+
+                      <div class="rowTab"><br>
+                        <div class="labels">
+                          <label for="profession">What is your current profession? </label>  <select name="occupation" id="dropdown" class="dropdown">
+                            <option disabled="" selected="" value=""></option>
+                            <option value="student">Student</option>
+                            <option value="employed">Employed</option>
+                            <option value="unemployed">Unemployed</option>
+                          </select>
+                        </div>
+                    
+                    </div>
+
+<br>
+
+                      <div class="rowTab">
+                          <div class="labels">
+                            <label for="userRating"> How often do you shop with kikku?</label>
+                          </div>
+                          <div class="rightTab">
+                            <ul style="list-style: none;">
+                              <li class="radio"><input type="radio" name="radio-buttons" value="1"  class="userRatings"><label>Daily</label></li>
+                              <li class="radio"><input type="radio" name="radio-buttons" value="1"  class="userRatings"><label>Weekly</label></li>
+                              <li class="radio"><input type="radio" name="radio-buttons" value="1"  class="userRatings"><label>Monthly</label></li>
+                              <li class="radio"><input type="radio" name="radio-buttons" value="1"  class="userRatings"><label>Not sure</label></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="rowTab">
+                            <div class="labels">
+                              <label for="payment">What means of payment do you Prefer? </label>
+                            </div>
+                            <div class="rightTab">
+                              <ul id="payment" style="list-style: none;">
+                                <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Mobile money /Airtel money</label></li>
+                                <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">K. Pay</li>
+                                <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Pay on delivery</label></li>
+                                <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">Buy now Pay later</label></li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div class="rowTab">
+                            <div class="labels">
+                              <label for="most-like">What means of discount do you Prefer? </label> <select id="discount" name="discount" class="dropdown">
+                                <option disabled="" selected="" value="">Select an option</option>
+                                <option value="Free-shipping">Free shipping</option>
+                                <option value="coupons">Coupons</option>
+                                <option value="gifts">Gifts</option>
+                              </select>
+                            </div>
+                            
+                          </div>
+                          <br>
+
+                          <div class="rowTab">
+                            <div class="labels">
+                              <label for="recommend">Would you recommend using kikku online shopping?</label>  <ul id="recommend" style="list-style: none;">
+                                <li class="checkbox"><label><input name="recommend" value="1" type="checkbox" class="userRatings">Yes</label></li>
+                                <li class="checkbox"><label><input name="recommend" value="3" type="checkbox" class="userRatings">No</label></li> <input type="text" name="text"  id="recommend" class="input-field" required="" placeholder="If No, comment why" size="40"> 
+
+                              </ul>
+                            </div>
+                           
+                          </div>
+                          <br>
+
+                          <div class="rowTab">
+                            <div class="labels">
+                              <label for="recommend">How do you rate the delivering services?</label>
+                            </div>
+                            <div class="rightTab">
+                              <ul id="delivery" style="list-style: none;">
+                                <li class="checkbox"><label><input name="delivery" value="1" type="checkbox" class="userRatings">Good</label></li>
+                                <li class="checkbox"><label><input name="delivery" value="3" type="checkbox" class="userRatings">Bad</label></li>
+                                <li class="checkbox"><label><input name="delivery" value="3" type="checkbox" class="userRatings">Very good</label></li>
+                                <li class="checkbox"><label><input name="delivery" value="3" type="checkbox" class="userRatings">Excellent</label></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <br>
+
+                          <div class="rowTab">
+                            <div class="labels">
+                              <label for="comments">Any Comments or Suggestions?</label> <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+
+                            </div>
+                            
+                          </div>
+                          <br>
+
+                          <button id="submit" type="submit">Submit</button>
+
+ 
+
+                                       
+
+                    </div>
+            
+
+                  </form>
+            </div>
+          
+      </body>
+      </html>
